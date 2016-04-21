@@ -1,0 +1,12 @@
+﻿<Window x:Class="Number_Speller_GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Number Speller" Height="350" Width="525" Loaded="Window_Loaded">
+    <Grid>
+        <TextBox x:Name="TextBox_Number" Height="83" Margin="72,10,27,0" TextWrapping="Wrap" VerticalAlignment="Top" VerticalScrollBarVisibility="Auto" TextChanged="TextBox_Number_TextChanged"/>
+        <TextBox x:Name="TextBox_Spelling" Margin="72,112,27,10" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+        <Label Content="Число:" HorizontalAlignment="Left" Margin="21,7,0,0" VerticalAlignment="Top"/>
+        <Label Content="Текстом:" HorizontalAlignment="Left" Margin="10,109,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
